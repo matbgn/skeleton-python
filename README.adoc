@@ -1,5 +1,5 @@
-# Skelton structure for Python projects
-
+= Skelton structure for Python projects
+:icons: font
 ifdef::env-github[]
 :tip-caption: :bulb:
 :note-caption: :information_source:
@@ -9,3 +9,74 @@ ifdef::env-github[]
 endif::[]
 
 CAUTION: First replace all NAME occurrences by final project name
+
+== General OOP Guidelines
+NOTE: Based on https://www.amazon.com/Learn-Python-Hard-Way-Introduction/dp/0134692888[Learn Python 3 the Hard Way] from Zed Shaw (Author)
+
+
+
+. Write/Draw about the problem:
+.. Notes + Drawings + Descriptions
+.. In english paragraphs
+.. Or extensive Drawings
+
+. Describe each situation with https://uxdesign.cc/better-stories-with-job-story-3467de354f45[Job Stories] alike (nouns + verbs)
+
+. Extract key concepts from Job Stories
+.. list nouns
+.. list verbs
+
+IMPORTANT: Document yourself with analog situations, programs, technics, etc.
+
+[start=4]
+. Create a Class Hierarchy Tree
+.. Class all nouns by asking:
+... What is similar to this?
+... What is basically another word for?
+```
+* Noun
+* Noun
+    * Noun
+    * Noun
+```
+
+[start=5]
+. Map all verbs in the tree
+.. What actions are needed based on verbs list?
+.. What do I need in addition to achieve that?
+```
+* Noun
+    - Verb
+    - Verb
+* Noun
+    - Verb
+    * Noun
+    * Noun
+```
+
+[start=6]
+. Copy-paste the tree in your IDE and make it run with empty statements attributes.
+
+[source,python]
+----
+class Noun:
+    def __init__(self):
+        pass
+----
+
+[source,java]
+----
+public class Noun {
+    public Noun() {
+        ;
+    }
+}
+----
+
+[start=7]
+. Make unit tests to match the descriptions
+
+CAUTION: Don't avoid it!
+
+[start=8]
+. Repeat and Refine

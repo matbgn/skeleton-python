@@ -1,0 +1,5 @@
+[run]
+source= ch/matbgn/iit/NAME
+
+[report]
+show_missing = True

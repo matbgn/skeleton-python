@@ -1,4 +1,6 @@
-from ch.matbgn.iit.NAME import __main__
+import pytest
+
+from ..NAME.__main__ import main
 
 
 def setup():
@@ -9,5 +11,6 @@ def teardown():
     print("TEAR DOWN!")
 
 
-def test_basic():
-    assert __main__.main() == "ready!"
+@pytest.mark.parametrize("test_input, expected", [('ready!', 0)])
+def test_main_basic(test_input, expected):
+    assert main(test_input) == expected

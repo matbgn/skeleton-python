@@ -10,7 +10,7 @@ config = {
     'author_email': 'My Email',
     'url': 'URL to get it at',
     'version': '0.1',
-    'install_requires': ['pytest'],
+    'install_requires': ['pytest', 'pytest-cov', 'mock'],
     'packages': ['ch.matbgn.iit.NAME'],
     'scripts': []
 }

@@ -1,9 +1,7 @@
+def main(*args):
+    print(args[0])
+    return 0
 
 
-def main():
-    print("Hello World!")
-    return "ready!"
-
-
-if __name__ == '__main__':
-    main()
+if __name__ == '__main__':  # pragma: no cover
+    main('Hello World!')

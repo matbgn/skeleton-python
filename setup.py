@@ -11,7 +11,7 @@ config = {
     'url': 'URL to get it at',
     'version': '0.1',
     'install_requires': ['pytest'],
-    'packages': ['NAME'],
+    'packages': ['ch.matbgn.iit.NAME'],
     'scripts': []
 }
 

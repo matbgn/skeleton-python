@@ -15,20 +15,22 @@ CAUTION: First replace all NAME occurrences by final project name
 . Update pip
 - `curl https://bootstrap.pypa.io/get-pip.py | python3`
 . Install virtualenv
-- `pip install virtualenv`
+- `pip3 install virtualenv`
 . Go to your dev folder and make a project folder in it
 - `mkdir my_awesome_project` -> go in it `cd my_awesome_project`
 . Start a new python env
 - `virtualenv -p python3 venv`
 . Active your environment
-- On UNIX: `source ./venv/bin/activate`
-- On Windows: `.\venv\Scripts\activate`
+- On UNIX: `source venv/bin/activate`
+- On Windows: `venv\Scripts\activate`
 . For deactivation
 - Simply type `deactivate`
 . For further installations you can simply run
 - `pip install pytest`
 - `pip install django`
 - and so on...
+. Then don't forget to put it in a requirements.txt for server installation
+- `pip freeze > requirements.txt`
 
 == General OOP Guidelines
 NOTE: Based on https://www.amazon.com/Learn-Python-Hard-Way-Introduction/dp/0134692888[Learn Python 3 the Hard Way] from Zed Shaw (Author)

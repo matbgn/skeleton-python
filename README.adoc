@@ -11,6 +11,8 @@ endif::[]
 CAUTION: First replace all NAME occurrences by final project name
 
 == Start a new Python project
+. Install PyCharm via toolbox software
+- https://www.jetbrains.com/toolbox-app/
 . Install python 3
 . Update pip
 - `curl https://bootstrap.pypa.io/get-pip.py | python3`

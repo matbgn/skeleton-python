@@ -27,6 +27,10 @@ CAUTION: First replace all NAME occurrences by final project name
 - On Windows: `venv\Scripts\activate`
 . For deactivation
 - Simply type `deactivate`
+. Validate that you're running python 3+
+- `python --version`
+. Update pip with
+- `python -m pip install --upgrade pip`
 . For further installations you can simply run
 - `pip install pytest`
 - `pip install django`

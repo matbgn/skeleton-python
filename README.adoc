@@ -12,5 +12,6 @@ TIP: This is a basic skeleton for Python projects
 
 == See documentation
 
-https://matbgn.github.io/terminal-shop/#/start-documenting
+CAUTION: Remove documentation content if copying this scaffold
 
+https://matbgn.github.io/skeleton-python/[Python Skeleton Documentation]

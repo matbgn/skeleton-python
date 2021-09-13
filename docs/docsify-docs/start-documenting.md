@@ -47,7 +47,7 @@ Insert and replace following HTML into index.html:
             window.$docsify = {
                 search: 'auto',
                 name: 'LEAVE_IT_EMPTY_OR_ENTER_A_HOME_BUTTON_LABEL',
-                repo: 'https://github.com/docsifyjs/docsify/'
+                repo: 'https://github.com/docsifyjs/docsify/',
                 loadSidebar: true,
                 subMaxLevel: 2,
                 markdown: {

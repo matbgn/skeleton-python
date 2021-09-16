@@ -36,7 +36,11 @@ Insert and replace following HTML into index.html:
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
         <meta name="description" content="YOUR_INCREDIBLE_DESCRIPTION">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-        <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+        <!-- docsify-darklight-theme-->
+            <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@3/dist/docsify-themeable/style.min.css" type="text/css">
+            <!-- docsify-themeable styles-->
+            <link rel="stylesheet alternative" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css" title="light">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css" title="dark">
         <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.css">
         <script src="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
     </head>
@@ -74,6 +78,10 @@ Insert and replace following HTML into index.html:
         <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
         <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
         <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+        
+        <!-- docsify-darklight-theme-->
+        <script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@3/dist/docsify-themeable/main.min.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@3/dist/docsify-themeable/index.min.js"></script>
     </body>
 </html>
 ```   

@@ -61,7 +61,7 @@ Insert and replace following HTML into index.html:
             <style>
                 :root {
                     --content-max-width: 75em;
-                    --sidebar-width: 25rem;
+                    --sidebar-width: 20rem;
                 }
             </style>
         <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.css">

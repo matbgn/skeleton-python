@@ -2,9 +2,9 @@
 
 ---
 
-## Install docsify and init `./docs` folder
+## Install docsify and init `./docs` folder from scratch
 1. Init npm repo and install docsify-cli or do it globally
-    ```bash
+    ```javascript
       npm init
       npm i -D docsify-cli
     
@@ -14,8 +14,24 @@
     ```
 
 1. Init docs folder
-    ```bash
+    ```javascript
     npx docsify init ./docs
+    ```
+   
+1. Serve documentation locally
+   ```javascript
+   npx docsify serve docs
+   ```
+
+## Install docsify and init `./docs` by cloning this repo
+1. Init npm repo and install docsify-cli
+    ```javascript
+    npm install
+    ```
+
+1. Serve documentation locally
+    ```javascript
+    npm run docs
     ```
 
 
@@ -126,9 +142,3 @@ Insert and replace following HTML into index.html:
         - [Documenting with Docsify](start-documenting.md)
     ```
 
-
-## Serve documentation locally
-Run following command
-```bash
-npx docsify serve docs
-```

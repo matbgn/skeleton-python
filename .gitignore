@@ -3,3 +3,5 @@
 /venv/
 .coverage
 projectname.egg-info/
+/package-lock.json
+/node_modules/

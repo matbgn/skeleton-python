@@ -1,0 +1,26 @@
+{
+  "name": "skeleton-python",
+  "version": "1.0.0",
+  "description": "= Skelton structure for Python projects :icons: font ifdef::env-github[] :tip-caption: :bulb: :note-caption: :information_source: :important-caption: :heavy_exclamation_mark: :caution-caption: :fire: :warning-caption: :warning: endif::[]",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs": "npx docsify serve ./docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matbgn/skeleton-python.git"
+  },
+  "author": "Matthieu Borgognon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matbgn/skeleton-python/issues"
+  },
+  "homepage": "https://github.com/matbgn/skeleton-python#readme",
+  "devDependencies": {
+    "docsify-cli": "^4.4.3"
+  }
+}

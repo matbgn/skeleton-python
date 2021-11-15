@@ -8,6 +8,7 @@
 1. Install PyCharm :warning: via toolbox software
     - https://www.jetbrains.com/toolbox-app/
 1. Install python 3
+    - https://wiki.python.org/moin/BeginnersGuide/Download
 1. Update pip
     - `curl https://bootstrap.pypa.io/get-pip.py | python3`
 1. Install virtualenv

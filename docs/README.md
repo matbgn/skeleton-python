@@ -11,7 +11,7 @@
     - https://wiki.python.org/moin/BeginnersGuide/Download
 1. Update pip
     - `curl https://bootstrap.pypa.io/get-pip.py | python3`
-1. Install virtualenv
+1. Install virtualenv (OR use pipx for package installation only - see below)
     - `pip3 install virtualenv`
 1. Go to your dev folder and make a project folder in it
     - `mkdir my_awesome_project` -> go in it `cd my_awesome_project`
@@ -32,3 +32,12 @@
     - and so on...
 1. Then don't forget to put it in a requirements.txt for server installation
     - `pip freeze > requirements.txt`
+    
+## NB: pipx (apps only)
+
+1. You can install apps trough pipx for a completly isolated environment
+    - `python3 -m pip install --user pipx`
+    - `python3 -m pipx ensurepath`
+1. Then install apps
+    - `pipx install x11pygrid`
+    - `pipx install bauh`

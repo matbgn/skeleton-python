@@ -39,5 +39,6 @@
     - `python3 -m pip install --user pipx`
     - `python3 -m pipx ensurepath`
 1. Then install apps
+    - `pipx install ansible-base`
     - `pipx install x11pygrid`
     - `pipx install bauh`
